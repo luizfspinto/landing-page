@@ -4,58 +4,73 @@
         <meta charset="UTF-8">
         <title>Landing Page</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div>Logo</div>
-            <nav>
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+            <nav class="container">
+                <div class="logo">Logo</div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#landscape">Paisagens</a>
+                    <a href="#contact">Fale conosco</a>
+                </div>
             </nav>
         </header>
-        <section>
-            <div>
-                <h1>Welcome to my Landing Page</h1>
+        <section id="hero" class="container">
+            <div class="hero-content">
+                <h1>Bem vindo a minha Landing Page</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed cum, inventore voluptates sunt officia nemo, animi, hic molestiae iure.</p>
-                <button>Sing up</button>
+                <button>Inscreva-se</button>
             </div>
             <div>
-                <img src="#" alt="">
+                <img src="./images/landscape-hero.jpg" alt="Imagem de paisagem, com um lago e montanha no fundo" width="550">
             </div>
         </section>
-        <section>
-            <h2>More information</h2>
-            <div>
-                <div>
-                    <img src="#" alt="">
-                </div>
-                <div>
-                    <img src="#" alt="">
-                </div>
-                <div>
-                    <img src="#" alt="">
-                </div>
-                <div>
-                    <img src="#" alt="">
+        <section id="landscape">
+            <div class="container">
+                <h2>Informações de paisagens</h2>
+                <div class="landscapes">
+                    <div class="landscape-image">
+                        <img src="./images/landscape-one.jpg" alt="Paisagem com montanhas e tempo nublado" width="250" height="200">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="landscape-image">
+                        <img src="./images/landscape-two.jpg" alt="Pisagem cheio de flores roxas e uma estrada no meio delas" width="250" height="200">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="landscape-image">
+                        <img src="./images/landscape-three.jpg" alt="Pisagem com campo verde florido e com uma ponte ao fundo e um pequeno rio passando abaixo" width="250" height="200">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="landscape-image">
+                        <img src="./images/landscape-four.jpg" alt="Pisagem com gramas verdes e uma casa ao fundo" width="250" height="200">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit amet consectetur adipisicing elit</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="cite">
             <blockquote cite="#">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum hic fuga ab doloremque quasi labore culpa et? Possimus recusandae nulla, maxime doloribus, atque voluptas, cum iure molestias autem exercitationem tenetur!</p>
+                <p><em>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum hic fuga ab doloremque quasi labore culpa et? Possimus recusandae nulla, maxime doloribus, atque voluptas, cum iure molestias autem exercitationem tenetur!</em></p>
                 <footer>
-                    <cite>Nome da Obra/Fonte</cite>
+                    <cite>Luiz Felipe</cite>
                 </footer>
             </blockquote>
         </section>
-        <section>
-            <div>
-                <h3>Get in touch with the team.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-            </div>
-            <div>
-                <button>Sing up</button>
+        <section id="contact">
+            <div class="container">
+                <div class="contact-banner">
+                    <div>
+                        <h3>Get in touch with the team.</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                    <div>
+                        <button>Inscreva-se</button>
+                    </div>
+                </div>
             </div>
         </section>
         <footer>

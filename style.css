@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    background-color: #1F2937;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    margin: 25px 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .menu {
+    display: flex;
+    gap: 35px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo, h1 {
+    color: #F9FAF8;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a, .hero-content p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#hero, #landscape, #contact {
+    padding: 120px 0px;
+}
+
+/*hero*/
+#hero {
+    display: flex;
+    gap: 30px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-content button {
+    width: 30%;
+    border: 0;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* landscape */
+
+#landscape, #contact {
+    background-color: #FFFFFF;
+}
+
+#landscape h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.landscapes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.landscape-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.landscape-image img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.cite {
+    padding: 120px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.cite blockquote p {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.cite blockquote footer {
+    text-align: right;
+    font-weight: 500;
+    color: black;
+}
+
+.contact-banner {
+    background-color: #3882F6;
+    padding: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-banner h3 {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.contact-banner p {
+    color: #E5E7EB;
+}
+
+.contact-banner button {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
